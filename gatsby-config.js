@@ -4,7 +4,7 @@ module.exports = {
 	siteMetadata: {
 		title: "Thiago Santana",
 		description: "Desenvolvimento de Software",
-		siteUrl: "thiagosantana.dev" // full path to blog - no ending slash
+		siteUrl: "http://thiagosantana.dev" // full path to blog - no ending slash
 	},
 	mapping: {
 		"MarkdownRemark.frontmatter.author": "AuthorYaml"
