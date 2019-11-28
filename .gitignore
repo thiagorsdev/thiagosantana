@@ -1,3 +1,5 @@
 node_modules/
 public/
 .cache/
+# Mac files
+.DS_Store
