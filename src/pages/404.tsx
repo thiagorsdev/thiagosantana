@@ -74,10 +74,13 @@ const NotFoundPage: React.FC<NotFoundTemplateProps> = props => {
 				<main id="site-main" css={[ErrorTemplate, outer]}>
 					<div css={inner}>
 						<section style={{ textAlign: "center" }}>
-							<ErrorCode>404</ErrorCode>
-							<ErrorDescription>Ooops!</ErrorDescription>
+							<ErrorCode>Ooops</ErrorCode>
+							<ErrorDescription>
+								Acho que voce esta no local errado, mas nao se
+								preocupe!
+							</ErrorDescription>
 							<Link css={ErrorLink} to="">
-								Go to the front page →
+								Pagina principal →
 							</Link>
 						</section>
 					</div>
