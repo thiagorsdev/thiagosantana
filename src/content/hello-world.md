@@ -2,7 +2,7 @@
 layout: post
 title: Hello World
 image: img/danielle-macinnes-IuLgi9PWETU-unsplash.jpg
-author: Thiago
+author: Thiago Santana
 date: 2019-03-10T10:00:00.000Z
 tags: ["techskills","golang"]
 draft: false
