@@ -6,8 +6,9 @@ import { css } from "@emotion/core";
 
 import { SocialLink } from "../../styles/shared";
 import config from "../../website-config";
-import Facebook from "../icons/facebook";
 import Twitter from "../icons/twitter";
+import Instagram from "../icons/instagram";
+import Linkedin from "../icons/linkedin";
 import SubscribeModal from "../subscribe/SubscribeOverlay";
 import SiteNavLogo from "./SiteNavLogo";
 
@@ -140,24 +141,27 @@ class SiteNav extends React.Component<SiteNavProps> {
 							<Link to="/about">About</Link>
 						</li>
 						<li role="menuitem">
-							<Link to="/tags/tech/">Tech Skills</Link>
+							<Link to="/tags/techskills/">Tech Skills</Link>
 						</li>
 						<li role="menuitem">
-							<Link to="/tags/soft/">Soft Skills</Link>
+							<Link to="/tags/golang/">Lets Go!</Link>
+						</li>
+						<li role="menuitem">
+							<Link to="/tags/softskills/">Soft Skills</Link>
 						</li>
 					</ul>
 				</SiteNavLeft>
 				<SiteNavRight>
 					<SocialLinks>
-						{config.facebook && (
+						{config.linkedin && (
 							<a
 								css={SocialLink}
-								href={config.facebook}
+								href={config.linkedin}
 								target="_blank"
-								title="Facebook"
+								title="Linkedin"
 								rel="noopener noreferrer"
 							>
-								<Facebook />
+								<Linkedin />
 							</a>
 						)}
 						{config.twitter && (
@@ -169,6 +173,17 @@ class SiteNav extends React.Component<SiteNavProps> {
 								rel="noopener noreferrer"
 							>
 								<Twitter />
+							</a>
+						)}
+						{config.instagram && (
+							<a
+								css={SocialLink}
+								href={config.instagram}
+								title="Instagram"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<Instagram />
 							</a>
 						)}
 					</SocialLinks>
