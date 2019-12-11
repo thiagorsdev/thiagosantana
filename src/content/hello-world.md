@@ -1,32 +1,47 @@
 ---
 layout: post
-title: Hello World
+title: Hey ho, let's Go!
 image: img/danielle-macinnes-IuLgi9PWETU-unsplash.jpg
 author: Thiago Santana
-date: 2019-03-10T10:00:00.000Z
-tags: ["techskills","golang"]
+date: 2019-12-08T10:00:00.000Z
+tags: ["techskills", "golang"]
 draft: false
 ---
+
 # Tudo bem?
 
+Depois de 10 anos basicamente trabalhando com Java, estou aprendendo uma nova linguagem de programação. Golang é uma linguagem de código livre criada pelo Google em 2009. Compilada e focada em produtividade, inicialmente seu compilador era escrito em C mas agora é escrito no próprio Golang.
 
-Ja perdi a conta de quantas vezes eu iniciei um blog. Eu nunca sabia que tematica seria interessante. Eu sempre tento me colocar no lugar do leitor pra tentar entender que tipo de assunto e mais importante ainda, como abordar os assuntos.
+Mesmo já tendo mais de 10 anos de idade, Golang vem começando a ganhar popularidade apenas nos últimos anos, a empresa na qual eu trabalho hoje por exemplo optou por utilizar Go na grande maioria dos projetos backend.
 
+### Go ou Golang?
 
-Eu sou Engenheiro de Software a 12 anos, entao acho justo que esse espaco seja destinado a falar de software. Tanto para Engenheiros como eu quanto pra outros profissionais que direta ou indiretamente lidam com profissionais como eu.
-Eu acredito na relevancia desse material, porque cada vez mais veremos profissionais como eu por ai, e veremos profissionais de areais como Marketing, Produto, Comercial tendo que lidar com todo o tecnicismo inerente a profissao. Afinal, software esta por toda a parte!
+Acho que não tem certo ou errado, mas normalmente eu utilizo Golang quando estou escrevendo ou quando estou buscando por temas relacionados. Até porque go é uma palavra comum do inglês, o que pode tornar mais complexa uma busca pelo termo. O uso de #golang em hashtags provavelmente também é o mais apropriado.
 
-### O que voce pode esperar aqui
+Agora se você estiver numa palestra ou discutindo com amigos desenvolvedores, provavelmente Go será mais do que suficiente.
 
+### Motivações
 
-**Tecnologia em geral** : Mais voltado pro publico que como eu curte escrever codigo. Golang eh a minha linguagem de trabalho atual e provavelmente ela vai ser o foco por aqui. Eu acredito que a melhor maneira de aprender eh ensinando, e um dos objetivos desse espaco eh desenvolver habilidades que vao alem daquelas obvias esperadas pra um programador.
+**Desempenho** : Da pra dizer que Golang, utiliza bem os recursos computacionais disponíveis atualmente. É uma linguagem tipada que é "convertida" pra linguagem de máquina. Soa meio antigo né? Golang não precisa de nenhuma máquina virtual atuando como um intermediário entre a máquina e o programa propriamente dito. Uma outra questão é que Go possuiu **goroutines**, que são muito mais eficientes e baratos de serem criados quando comparamos com _threads_.
 
-**Programacao para nao programadores** : Mais voltado para profissionais que precisam lidar no dia a dia com desenvolvedores de software. Depois de passar alguns anos lidando diretamente com o cliente, minha ideia eh compartilhar o conhecimento que eu adquiri no processo. Tem bastante coisa pra falar! Desenvolvimento de software ta longe de ser uma atividade apenas tecnologica, na verdade eu arrisco dizer que eh uma atividade mais humana que tecnologica!
+**Simplicidade** : Provavelmente Golang foi desenvolvida com foco em simplicidade desde o início. Os tempos de compilaçãao são rápidos de maneira que o binário resultante fica disponível rapidamente para ser executado(dando uma sensação parecida com a de linguagens dinâmicas). Uma coisa bacana é que Go parte da premissa de que a linguagem não será modificada o tempo todo. A biblioteca padrão ja provê muito do básico, de maneira que não são necessárias bibliotecas de terceiros pra diversas situações comuns. Ah! São apenas 25 palavras reservadas, metade das existentes em Java.
 
-**Desenvolvimento profissional** : *Soft skills* que eu acredito serem necessarios pra qualquer tipo de profissional em qualquer area. Claro que eu vou focar em desenvolvimento de software, mas eu realmente espero que seja util pra qualquer pessoa.
+**Concorrência** : Golang é uma linguagem que nasceu pensando em concorrência desde o início com o suporte de **Goroutines** e **Channels**. O que torna a linguagem uma boa escolha para o desenvolvimento de backends com requerimentos de escalabilidade. Pode não parecer, mais isso é um grande passo a frente, especialmente para engenheiros de software com background em linguagens _single thread_ como Ruby e Python.
 
-### Boa leitura
+**Deployment** : Um programa Go quando compilado, gera um binário staticamente linkado, logo não existem dependências e o melhor, você tem apenas um binario pra _deployar_. Docker permite esse tipo de facilidade para outras linguagens que não se comportam da mesma maneira.
 
-Enfim, eu espero que o material que voce vai encontrar aqui te ajude de alguma maneira. Em tempos de escassez de tempo, ter voce lendo isso aqui ja eh uma alegria pra mim. 
+### Como começar?
 
-Aproveite sua visita!
+Se você ficou curioso, e quer começar a aprender Go (ou Golang), eu preciso te dizer que esse site foi criado com o objetivo de se tornar referência do assunto. Basicamente vai servir de repositório dos meus aprendizados e que eu espero ser útil pra outros desenvolvedores.
+
+A quantidade de conteúdo escrito em português ainda é pequeno quando comparamos com inglês, e também é um objetivo desse espaço reduzir essa diferença.
+
+Algumas referências básicas ainda em inglês seguem abaixo. Mas eu estou fazendo um compilado do material que já existe em português e que eu irei catalogar aqui em breve.
+
+Hasta la vista!
+
+### Referências
+
+[Tour of Go](https://tour.golang.org/basics/1)  
+[Go playground](https://play.golang.org/)  
+[Effective Go](https://golang.org/doc/effective_go.html)
